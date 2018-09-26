@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/add"
+        android:icon="@drawable/baseline_add"
+        app:showAsAction="ifRoom"
+        android:title="add" />
+    <item android:id="@+id/left"
+        android:icon="@drawable/left"
+        app:showAsAction="ifRoom"
+        android:title="goback" />
+
+    <item android:id="@+id/file"
+        android:checkable="true"
+        android:title="file" />
+    <group android:checkableBehavior="single">
+    <item android:id="@+id/saveas"
+        android:title="save as" />
+    <item android:id="@+id/load"
+        android:title="load" />
+    </group>
+    <item android:id="@+id/exit"
+        android:title="exit" />
+</menu>
